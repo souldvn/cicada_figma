@@ -13,7 +13,7 @@ const Welcome = () => {
             <button>Записаться на курс</button>
         </div>
         <div className={s.pic}>
-            <img className={s.mainpic} src={mainpic}/>
+            <img className={s.mainpic} src={mainpic} alt='web'/>
             <p>Авторский курс от CICADA ACADEMY</p>
         </div>
     </div>

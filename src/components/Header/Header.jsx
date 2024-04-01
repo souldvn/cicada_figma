@@ -7,12 +7,12 @@ const Header = () => {
   return (
     <div className={s.header}>
       <div className={s.logo}>
-        <img src={logo}/>
+        <img src={logo} alt='web'/>
       </div>
         <div className={s.headerInfo}>
           <p>+7-999-999-999</p>
           <button>Забронировать</button>
-          <img src={burger}/>
+          <img src={burger} alt='web'/>
         </div>
     </div>
   )
